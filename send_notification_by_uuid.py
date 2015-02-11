@@ -151,8 +151,8 @@ if __name__ == '__main__':
 	head = conf_dir + "/head"
 	tail = conf_dir + "/tail"
 	log_file = conf_dir + "/log"
-	test_email = "lei.zhang@ersa.edu.au"
-	subject = '[NeCTAR eRSA Node Notification] A scheduled upgrade on 12/03/2015 will affect your instances'
+	test_email = "test@email.com"
+	subject = 'Test title'
 	email_pattern = re.compile('([\w\-\.\']+@(\w[\w\-]+\.)+[\w\-]+)')
 	kc = get_keystone_client()
 	instance_uuids = get_instance_uuid()
